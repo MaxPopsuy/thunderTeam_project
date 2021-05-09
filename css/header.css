@@ -1,0 +1,92 @@
+.div_wrapper{
+  background-color: #707070;
+  background-image: url(../app/images/genshin_wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 30px; 
+  border: solid;
+  border-radius: 8px;
+  justify-content: space-around;
+  }
+
+  .div1{
+    display: flex;
+  }
+  
+  .logo{
+  }
+
+
+  .logo_link {
+    font-size: 10px;
+    font-weight: 700;
+    color: #E4DEDE;
+    text-shadow: #000 0 0 0.3px;
+    font-family: cronos-pro;
+  }
+ 
+  .team_link {
+    font-size: 7px;
+    font-weight: 100;
+    font-family: cronos-pro;
+    color:#E4DEDE;
+    text-shadow: #000 0 0 0.3px;
+  }
+
+  .genshin-impact-logo_icon{
+      width: 25px;
+      height: 25px;
+      
+  }
+
+  .navigation {
+    position: relative;
+
+  }
+
+  .navigation:hover .menu_list{
+    left: -5px;
+  }
+
+  .burger{
+      color: #000;
+      border: none;
+      background-color: transparent;
+      font-size: 17px;
+      outline: none;
+  }
+
+  .navigation:hover .burger{
+      transform: rotate(90deg);
+      transition: 200ms linear;
+  }
+
+  .menu_list{
+      position: absolute;
+      left: 1000000000000px;
+      transition: 200ms linear;
+      background-color: #fff;
+      width: 20px;
+  }
+
+  .menu_list_item{}
+
+  .menu_list_link{
+      color: #000;
+      font-size: 6px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: cronos-pro;
+  }
+
+  .menu_list_link:hover{
+      text-decoration: underline;
+  }
+
+ 
