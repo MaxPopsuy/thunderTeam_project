@@ -1,0 +1,14 @@
+.start_game{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 65px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: cronos-pro;
+    color: #E4DEDE;
+    text-shadow: #000 0 0 0.3px;
+}
