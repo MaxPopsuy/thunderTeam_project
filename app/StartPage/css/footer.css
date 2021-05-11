@@ -1,0 +1,138 @@
+.vertical-line{
+  border-left: 0.1px solid #FEFEFE;
+  height: 25px;
+}
+
+.footer_div_wrapper:after {
+    background-color: #FEFEFE;
+    height: 0.1px;
+    content: '';
+    display: block;
+    margin-top: 3px;
+    width: 100%;
+    margin-bottom: 3px;
+  }
+    
+  .team_logo {
+    /* border-radius: 50%; */
+    width: 15px;
+    height: 15px;
+    font-family: cronos-pro;
+    
+  }
+
+  .logo_text_link{
+   
+  }
+  
+  .logo_text_link{
+    font-size: 8.5px;
+    font-weight: 400;
+    font-family: cronos-pro;
+    color: #FEFEFE;
+    display: block;
+  }
+  
+
+  .footer_div_logo {
+    display: flex;
+    width: 63px;
+    justify-content: space-between;
+    /* padding: 0.2rem; */
+    align-items: center;
+  }
+
+
+
+.about_us{
+  
+}
+
+.about_us_div{  
+
+}
+
+  .about_us_text{
+    font-size: 8.5px;
+    font-weight: 400;
+    font-family: cronos-pro;
+    text-align: center;
+    color: #E4DEDE;
+  }
+
+  .about_us_team_link{
+    font-size: 6px;
+    font-weight: 400;
+    font-family: cronos-pro;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    color: #E4DEDE;
+    margin: 0 auto;
+  }
+
+  .about_us_team_link:hover {
+    border-bottom: 0.3px solid #E4DEDE;
+    cursor: pointer;
+  }
+
+
+  .footer_div_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 0rem;
+  }
+
+  .data{
+    font-size: 5px;
+    font-weight: 300;
+    font-family: cronos-pro;
+    padding: 0rem 0rem 0.3rem 1rem;
+    color: #E4DEDE;
+  }
+
+
+  .input_sound{
+    width: 75px;
+    height: 1px;
+    margin: 13px 0;
+    background: #FFFFFF;
+    cursor: pointer;
+    background-color: #000000;
+    -webkit-appearance: none;
+    border: 0.2px solid #010101;
+    cursor: pointer;
+  }
+  
+  .input_sound::-webkit-slider-thumb {
+    width: 10px;
+    height: 5px;
+    background: #ffffff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  
+  .input_sound:focus{
+    outline: none;
+  }
+
+  .wrapper_range{
+    display: flex;
+  }
+
+  .mini_sound{
+    width: 9px;
+    height: 9px;
+    margin: 9px 5px 5px 5px;
+  }
+
+  .max_sound{
+    width: 10px;
+    height: 10px;
+    margin: 8px 0px 5px 5px;
+  }
+
+  .wrapper_range{
+    display: flex;
+    justify-content: space-between;
+  }
