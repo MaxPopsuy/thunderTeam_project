@@ -1,6 +1,10 @@
 .vertical-line{
-  border-left: 0.1px solid #FEFEFE;
+  border-left: 0.1px solid #e4dede;
   height: 25px;
+}
+
+.footer{
+  bottom: 0;
 }
 
 .footer_div_wrapper:after {
@@ -14,7 +18,7 @@
   }
     
   .team_logo {
-    /* border-radius: 50%; */
+    border-radius: 50%;
     width: 15px;
     height: 15px;
     font-family: cronos-pro;
