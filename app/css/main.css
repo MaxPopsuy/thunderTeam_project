@@ -1,0 +1,26 @@
+.body{
+    background-image:  url(../images/genshin_wallpaper.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto ;
+    background-size: cover;
+   justify-content: center;
+    
+}
+.main_card_wrapper {
+    width: 1400px;
+   height: 800px;
+   margin: auto;
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: center;
+    
+}
+.image_shirt{
+    height: 250px;
+    width: 140px;
+    border-radius: 10px;
+}
+.card {
+    height: 250px;
+    margin: 0px 20px 10px 0px;
+}

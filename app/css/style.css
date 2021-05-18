@@ -1,3 +1,6 @@
 @import "./reset.css";
-@import "./fonts.css";
-
+@import "../fonts/cronospro-cufonfonts/";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./header2.css";
