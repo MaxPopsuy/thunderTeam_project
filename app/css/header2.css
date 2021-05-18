@@ -123,7 +123,8 @@
   .timer {
     justify-content: center;
     margin-left: 108px;
-    
+    font-size: 20px;
+    color: #e4dede;
   }
   .input_sound {
     width: 75px;
