@@ -1,0 +1,153 @@
+@import "./fonts.css";
+
+.vertical-line {
+  border-left: 0.1px solid #e4dede;
+  height: 25px;
+  margin-left: 20%;
+}
+
+.footer {
+  bottom: 0;
+  background-color: #707070;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+/* 
+.footer_div_wrapper:after {
+  background-color: #fefefe;
+  height: 0.1px;
+  content: "";
+  display: block;
+  width: 100%;
+  margin-bottom: 3px;
+} */
+
+
+.team_logo {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  
+  font-family: congenial;
+}
+
+.logo_text_link {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+  font-family: congenial;
+  color: #fefefe;
+  display: block;
+}
+
+.footer_div_logo {
+  display: flex;
+  width: 63px;
+  justify-content: space-between;
+  height: 15px;
+  margin-left: 10%;
+  align-items: center;
+}
+
+.about_us {
+  width: 50%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.about_us_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about_us_text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: congenial;
+  text-align: center;
+  color: #e4dede;
+  margin-bottom: 5px;
+}
+
+.about_us_team_link {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: congenial;
+  padding-bottom: 2px;
+  color: #e4dede;
+  margin: 0 auto;
+  display: inline-block;
+  
+}
+
+.about_us_team_link:hover {
+  transition: all 1s;
+  text-decoration: underline;
+  
+}
+
+.footer_div_wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+  padding-bottom: 10px;
+}
+
+.data {
+  font-size: 5px;
+  font-weight: 300;
+  font-family: congenial;
+  height: 5px;
+  color: #e4dede;
+  bottom: 0;
+}
+
+
+.input_sound {
+  width: 75px;
+  height: 1px;
+  margin: 13px 0;
+  background: #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  -webkit-appearance: none;
+  border: 0.2px solid #010101;
+  cursor: pointer;
+}
+
+.input_sound::-webkit-slider-thumb {
+  width: 10px;
+  height: 5px;
+  background: #ffffff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.input_sound:focus {
+  outline: none;
+}
+
+.wrapper_range {
+  display: flex;
+}
+
+.mini_sound {
+  width: 9px;
+  height: 9px;
+  margin: 9px 5px 5px 5px;
+}
+
+.max_sound {
+  width: 10px;
+  height: 10px;
+  margin: 8px 0px 5px 5px;
+}
+
+.wrapper_range {
+  display: flex;
+  justify-content: space-between;
+}

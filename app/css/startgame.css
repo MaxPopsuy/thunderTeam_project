@@ -1,0 +1,123 @@
+.start_game{
+    font-size: 30px;
+    font-weight: 500;
+    /* line-height: 50px; */
+    margin: 0 auto;
+    background-color: transparent;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: congenial;
+    color: #E4DEDE;
+}
+
+.main__start__modal-window{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-window__wrapper{
+   
+    width: 600px;
+    height: 375px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.modal-window__wrapper-select{
+    display: block;
+    width: 250px;
+    border: none;
+    outline: none;
+    font-family: "congenial";
+    font-size: 30px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #707070;
+    border-radius: 10px;
+    padding: 10px 0 10px 75px;
+    color: #fefefe;
+    appearance: none;
+    cursor: pointer;
+}
+
+
+.modal-window__wrapper-select-option{
+    margin-bottom: 3px;
+    background-color: #707070;
+    outline: transparent;
+    box-shadow: none;
+    border-bottom: #fefefe;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.modal-window__wrapper-difficult{
+    text-align: center;
+    font-family: "congenial";
+    font-size: 36px;
+    color: #707070;
+}
+
+.modal-window__wrapper-btn{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #707070;
+    color: #e4dede;
+    border: none;
+    border-radius: 10px;
+    font-family: congenial;
+    font-size: 30px;
+    display: block;
+    margin: 110px auto 10px;
+}
+
+.main__start__modal-about{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-window__wraper-about-text{
+    font-family: congenial;
+    font-size: 26px;
+    color: #707070;
+    text-align: center;
+}
+
+.modal-about__wrapper-btn{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #707070;
+    color: #e4dede;
+    border: none;
+    border-radius: 10px;
+    font-family: congenial;
+    font-size: 30px;
+    display: block;
+    margin: 60px auto 10px;
+}

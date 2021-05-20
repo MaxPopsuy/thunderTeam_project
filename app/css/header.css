@@ -1,0 +1,121 @@
+body{
+  max-width: 1440px;
+  height: 720px;
+
+}
+main{
+  align-items: center;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.div_wrapper {
+  background-color: #707070;
+  background-image: url("../images/genshin_wallpapers.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #707070;
+  border-radius: 8px;
+  
+}
+
+.div1 {
+  display: flex;
+}
+
+.logo_link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #e4dede;
+  font-family: congenial;
+}
+
+.team_link {
+  font-size: 10px;
+  font-weight: 100;
+  font-family: congenial;
+  color: #e4dede;
+
+}
+
+.genshin-impact-logo_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.burger {
+  color: #808080;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: congenial;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  outline: none;
+}
+
+.menu_list {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 50%;
+  visibility: none;
+  outline: none;
+}
+
+.menu_list_item {
+}
+
+.menu_list_link {
+  color: #e4dede;
+  font-size: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: congenial;
+}
+
+.menu_list_link:hover {
+  transition: all 1s;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1366px) {
+  body{
+    max-width: 1360px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  body{
+    max-width: 1360px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body{
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  body{
+    max-width: 1080px;
+  }
+}
+
+
