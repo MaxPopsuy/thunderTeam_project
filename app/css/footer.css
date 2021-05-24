@@ -26,14 +26,14 @@
 
 .team_logo {
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  width: 50px;
+  height: 50px;
   
   font-family: congenial;
 }
 
 .logo_text_link {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   margin-left: 10px;
   font-family: congenial;
@@ -107,24 +107,27 @@
 
 
 .input_sound {
-  width: 75px;
-  height: 1px;
+  width: 200px;
+  height: 5px;
   margin: 13px 0;
   background: #ffffff;
   cursor: pointer;
-  background-color: #000000;
+  background-color: #707070;
   -webkit-appearance: none;
-  border: 0.2px solid #010101;
+  border: 0.2px solid #707070;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .input_sound::-webkit-slider-thumb {
   width: 10px;
-  height: 5px;
+  height: 10px;
   background: #ffffff;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   cursor: pointer;
+  align-items: center;
   -webkit-appearance: none;
+  border-radius: 50%;
 }
 
 .input_sound:focus {
@@ -133,18 +136,19 @@
 
 .wrapper_range {
   display: flex;
+  align-items: center;
 }
 
 .mini_sound {
-  width: 9px;
-  height: 9px;
-  margin: 9px 5px 5px 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .max_sound {
-  width: 10px;
-  height: 10px;
-  margin: 8px 0px 5px 5px;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 .wrapper_range {

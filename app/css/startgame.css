@@ -83,8 +83,10 @@
     font-family: congenial;
     font-size: 30px;
     display: block;
-    margin: 110px auto 10px;
+    margin: 70px auto 10px;
 }
+
+
 
 .main__start__modal-about{
     display: none;
@@ -100,10 +102,11 @@
 }
 
 .modal-window__wraper-about-text{
-    font-family: congenial;
+    font-family: cronos-pro;
     font-size: 26px;
     color: #707070;
     text-align: center;
+    margin-top: 20px;
 }
 
 .modal-about__wrapper-btn{
@@ -119,5 +122,9 @@
     font-family: congenial;
     font-size: 30px;
     display: block;
-    margin: 60px auto 10px;
+    margin: 50px auto 10px;
+}
+
+.modal-window__wrapper-score-text{
+    font-size: 32px;
 }
