@@ -1,11 +1,11 @@
 body{
   max-width: 1440px;
-  height: 720px;
+  height: 650px;
 
 }
-main{
+.main{
+  height: 79.4%;
   align-items: center;
-  height: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -87,9 +87,6 @@ main{
   outline: none;
 }
 
-.menu_list_item {
-}
-
 .menu_list_link {
   color: #e4dede;
   font-size: 6px;
@@ -105,7 +102,7 @@ main{
 
 @media screen and (max-width: 1366px) {
   body{
-    max-width: 1360px;
+    max-width: 1366px;
   }
 }
 

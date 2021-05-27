@@ -12,7 +12,10 @@
 }
 
 .main__start__modal-window{
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 400ms ease-in-out, visibility 400ms ease-in-out;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -44,9 +47,11 @@
     font-size: 30px;
     margin: 50px auto;
     text-align: center;
+    text-align-last: center;
     background-color: #707070;
     border-radius: 10px;
-    padding: 10px 0 10px 75px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     color: #fefefe;
     appearance: none;
     cursor: pointer;
@@ -72,7 +77,6 @@
 
 .modal-window__wrapper-btn{
     width: 250px;
-    height: 50px;
     text-align: center;
     align-items: center;
     cursor: pointer;
@@ -86,7 +90,11 @@
     margin: 70px auto 10px;
 }
 
-
+.show_modal {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+}
 
 .main__start__modal-about{
     display: none;

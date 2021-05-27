@@ -1,42 +1,72 @@
 body {
   max-width: 1440px;
-  height: 1080px;
+  height: 600px;
   background-image: url(../images/genshin_wallpaper.jpg);
   background-repeat: no-repeat;
+  background-color: #707070;
   margin: 0 auto;
   background-size: cover;
   justify-content: center;
 }
 
-main{
-    height: 95%;
-    width: 90%;
+.main2{
+  height: 80%;
+  align-items: unset;
+}
+
+.card2, .card3{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .main_card_wrapper {
-  width: 100%;
-  height: 100%;
-  margin: auto;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
   display: flex;
-  flex-flow: wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-top: 20px;
+  perspective: 900px;
 }
-.image_shirt {
-  height: 250px;
-  width: 140px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-.image_shirt:hover{
-    transform: scale(1.1);
-}
-
 .card {
-  height: 250px;
-  margin: 0px 20px 10px 0px;
+  height: 214px;
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card:hover{
+  transform: scale(1.03);
+}
+
+.card:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+.card.flip {
+  transform: rotateY(180deg);
+}
+.card.flipped {
+  display: none;
+}
+
+.image_back{
+  transform: rotateY(180deg);
+}
+
+.image_back, .image_shirt {
+  height: 214px;
+  width: 100px;
+  position: absolute;
+  border-radius: 10px;
+  backface-visibility: hidden;
 }
 
 .timer {
@@ -48,25 +78,23 @@ main{
 }
 
 @media screen and (max-width: 1366px) {
-  body {
+  .body {
     max-width: 1360px;
-    height: 1200px;
   }
 }
 
 @media screen and (max-width: 1360px) {
-  body {
+  .body {
     max-width: 1360px;
   }
 }
 @media screen and (max-width: 1200px) {
-  body {
+  .body {
     max-width: 1200px;
-    height: 1366px;
   }
 }
 @media screen and (max-width: 1080px) {
-  body {
+  .body {
     max-width: 1080px;
   }
 }
