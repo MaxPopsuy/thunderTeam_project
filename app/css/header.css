@@ -1,7 +1,9 @@
 body{
   max-width: 1440px;
-  height: 650px;
-
+  height: 100vh;
+  /* background-color: #707070; */
+  background-image: url("../images/genshin_wallpapers.jpg");
+  background-size: cover;
 }
 .main{
   height: 79.4%;
@@ -12,8 +14,8 @@ body{
 }
 
 .div_wrapper {
-  background-color: #707070;
-  background-image: url("../images/genshin_wallpapers.jpg");
+  /* background-color: #707070;
+  background-image: url("../images/genshin_wallpapers.jpg"); */
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-top: 15px;
@@ -31,7 +33,7 @@ body{
   margin: 0 auto;
   border: 2px solid #707070;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .div1 {
@@ -98,6 +100,33 @@ body{
 .menu_list_link:hover {
   transition: all 1s;
   text-decoration: underline;
+}
+
+.pause {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pause_img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1960px) {
+  body{
+    max-width: 1960px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  body{
+    max-width: 1440px;
+  }
 }
 
 @media screen and (max-width: 1366px) {

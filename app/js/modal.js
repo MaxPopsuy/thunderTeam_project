@@ -1,7 +1,6 @@
 const startModalRef = document.querySelector(".main__start__modal-window");
 const startModalBtn = document.querySelector(".start_game");
 const audioRef = document.querySelector(".bg-music");
-// audioRef.play();
 
 
 const openStartModal = ()=>{

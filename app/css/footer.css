@@ -10,6 +10,7 @@
   background-color: #707070;
   width: 100%;
   align-items: center;
+  border-radius: 8px;
 }
 /* 
 .footer_div_wrapper:after {
