@@ -68,7 +68,7 @@ body{
 }
 
 .burger {
-  color: #e4dede;
+  color: #707070;
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -115,6 +115,7 @@ body{
   width: 35px;
   height: 35px;
   cursor: pointer;
+  align-items: center;
 }
 
 @media screen and (max-width: 1960px) {

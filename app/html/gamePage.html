@@ -11,28 +11,47 @@
 </head>
 
 <body class="body">
+  <audio class="card_coup" src="../audio/card_coup.mp3"></audio>
+  <audio class="card_match" src="../audio/card_match.mp3"></audio>
+  <audio class="card_not_match" src="../audio/card_not_match.mp3"></audio>
+  <audio class="bg-music" src="../audio/the__wind__and__the__star-1.mp3"></audio>
+  <audio class="time-is-up" src="../audio/time_is_up.mp3"></audio>
+  <audio class="win" src="../audio/win.mp3"></audio>
+
   <div class="main__start__modal-window">
+    <div class="modal-window__wrapper">
+        <p class="modal-window__wrapper-difficult">Select difficult</p>
+        <select class="modal-window__wrapper-select">
+            <option class="modal-window__wrapper-select-option">Easy</option>
+            <option class="modal-window__wrapper-select-option" selected>Normal</option>
+            <option class="modal-window__wrapper-select-option">Hard</option>
+            <option class="modal-window__wrapper-select-option">15 second</option>
+        </select>
+        <a class="modal-window__wrapper-btn">Start game!</a>
+    </div>
+</div>
+  <div class="main__start__modal-window main__start__modal-window-win ">
     <div class="modal-window__wrapper">
       <p class="modal-window__wrapper-difficult">You win!</p>
-      <p class="modal-window__wrapper-score-text modal-window__wraper-about-text">Score: 1482</p>
-      <select class="modal-window__wrapper-select ">
+      <select class="modal-window__wrapper-select modal-window__wrapper-select-win ">
         <option class="modal-window__wrapper-select-option">Easy</option>
         <option class="modal-window__wrapper-select-option" selected>Normal</option>
         <option class="modal-window__wrapper-select-option">Hard</option>
+        <option class="modal-window__wrapper-select-option">15 second</option>
       </select>
-      <button class="modal-window__wrapper-btn">Restart</button>
+      <button class="modal-window__wrapper-btn modal-window__wrapper-btn-win">Restart</button>
     </div>
   </div>
-  <div class="main__start__modal-window">
+  <div class="main__start__modal-window main__start__modal-window-lose">
     <div class="modal-window__wrapper">
       <p class="modal-window__wrapper-difficult">You lose!</p>
-      <p class="modal-window__wrapper-score-text modal-window__wraper-about-text">Score: 1482</p>
-      <select class="modal-window__wrapper-select ">
-        <option class="modal-window__wrapper-select-option">Easy</option>
+      <select class="modal-window__wrapper-select modal-window__wrapper-select-lose">
+        <option class="modal-window__wrapper-select-option" >Easy</option>
         <option class="modal-window__wrapper-select-option" selected>Normal</option>
         <option class="modal-window__wrapper-select-option">Hard</option>
+        <option class="modal-window__wrapper-select-option">15 second</option>
       </select>
-      <button class="modal-window__wrapper-btn">Restart</button>
+      <a class="modal-window__wrapper-btn modal-window__wrapper-btn-lose">Restart</a>
     </div>
   </div>
   <div class="main__start__modal-window main__start__modal-about">
@@ -55,105 +74,103 @@
       <h2 class="header_logo_team"><a class="team_link" href="https://github.com/MaxPopsuy/thunderTeam_project/">by
           ThunderTeam</a></h2>
     </div>
-    <p class="timer">3:59</p>
+    <p class="timer" id="timer"></p>
     <div class="wrapper_range">
       <img class="mini_sound" src="../images/min.png" alt="mini_sound">
       <input class="input_sound" type="range" min="0" max="100">
       <img class="max_sound" src="../images/mmmmmmaaaaxxxxx.png" alt="max_sound">
     </div>
-
-    <button class="burger">About Us</button>
-    <button class="pause"><img class="pause_img" src="../images/—Pngtree—pause vector icon_3876297.png" alt="pause"></button>
+    <button class="burger"><img class="pause_img" src="../images/—Pngtree—pause vector icon_3876297.png" alt="pause"></button>
 
   </header>
 
   <main class="main2">
     <div class="main_card_wrapper">
-      <div class="card" data-card="one">
+      <div class="card" data-card="1">
         <img class="image_back" src="../images/Character_Amber_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="one">
+      <div class="card" data-card="1">
         <img class="image_back" src="../images/Character_Amber_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="two">
+      <div class="card" data-card="2">
         <img class="image_back" src="../images/Character_Bennett_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="two">
+      <div class="card" data-card="2">
         <img class="image_back" src="../images/Character_Bennett_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="three">
+      <div class="card" data-card="3">
         <img class="image_back" src="../images/Character_Diluc_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="three">
+      <div class="card" data-card="3">
         <img class="image_back" src="../images/Character_Diluc_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="four">
+      <div class="card" data-card="4">
         <img class="image_back" src="../images/Character_Fishl_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="four">
+      <div class="card" data-card="4">
         <img class="image_back" src="../images/Character_Fishl_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="five">
+      <div class="card" data-card="5">
         <img class="image_back" src="../images/Character_Jean_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="five">
+      <div class="card" data-card="5">
         <img class="image_back" src="../images/Character_Jean_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="six">
+      <div class="card" data-card="6">
         <img class="image_back" src="../images/Character_Ganyu_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="six">
+      <div class="card" data-card="6">
         <img class="image_back" src="../images/Character_Ganyu_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="seven">
+      <div class="card" data-card="7">
         <img class="image_back" src="../images/Character_Klee_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="seven">
+      <div class="card" data-card="7">
         <img class="image_back" src="../images/Character_Klee_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="eight">
+      <div class="card" data-card="8">
         <img class="image_back" src="../images/Character_Lisa_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card" data-card="eight">
+      <div class="card" data-card="8">
         <img class="image_back" src="../images/Character_Lisa_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card " data-card="nine">
+      <div class="card " data-card="9">
         <img class="image_back" src="../images/Character_Lumin_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card " data-card="nine">
+      <div class="card " data-card="9">
         <img class="image_back" src="../images/Character_Lumin_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card " data-card="ten">
+      <div class="card " data-card="10">
         <img class="image_back" src="../images/Character_Venti_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image">
       </div>
-      <div class="card " data-card="ten">
+      <div class="card " data-card="10">
         <img class="image_back" src="../images/Character_Venti_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image"> -->
       </div>
-      <div class="card " data-card="eleven">
+      <div class="card " data-card="11">
         <img class="image_back" src="../images/Character_Xiao_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image"> -->
       </div>
-      <div class="card " data-card="eleven">
+      <div class="card " data-card="11">
         <img class="image_back" src="../images/Character_Xiao_Card.png">
         <img class="image_shirt" src="../images/7222111_0.png" alt="image"> -->
       </div>
